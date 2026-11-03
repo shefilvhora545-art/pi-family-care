@@ -1,0 +1,26 @@
+{
+  "name": "pi-family-care-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PI Family Care API: prescriptions read by AI, paid with PayPal, delivered by a local pharmacy.",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "setup-db": "node src/setupDb.js",
+    "test": "node test/run.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-pg-simple": "^10.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^5.1.0",
+    "express-session": "^1.18.1",
+    "helmet": "^8.0.0",
+    "multer": "^2.0.0",
+    "pg": "^8.13.1"
+  }
+}

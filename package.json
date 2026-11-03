@@ -1,0 +1,17 @@
+{
+  "name": "pi-family-care",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Order medicine for your parents in India from anywhere: AI reads the prescription, you pay with PayPal, the local pharmacy delivers.",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "npm --prefix server install && npm --prefix client install",
+    "setup": "npm --prefix server run setup-db && npm --prefix client run build",
+    "start": "npm --prefix server start",
+    "dev:server": "npm --prefix server start",
+    "dev:client": "npm --prefix client run dev"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

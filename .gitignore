@@ -1,0 +1,9 @@
+node_modules/
+client/dist/
+.env
+*.log
+.DS_Store
+uploads/
+HACKATHON-PLAN.txt
+DEVPOST-TEXT.md
+demo-video/
